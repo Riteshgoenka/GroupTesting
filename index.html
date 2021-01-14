@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="./assets/favicon.ico">
+  <meta name="description" content="Contact Tracing Enhances the Efficiency of COVID-19 Group Testing">
+  <!-- <meta name="keywords" content="iNeRF,NeRF,Pose,Estimation,Differentianle,Rendering,Neural"> -->
+  <title>Group Testing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <!--<h1 style="color:white;margin-bottom:0;">iNeRF</h1>-->
+    <h2 style="color:white;">Contact Tracing Enhances the Efficiency of COVID-19 Group Testing<a href="https://arxiv.org/abs/2011.14186"><i class="fa fa-external-link" style="color: white;"></i></a></h3>
+    <br>
+    <p style="color:white"><a href="https://www.cse.iitb.ac.in/~goenkarit/">Ritesh Goenka</a><sup>1</sup>, <a href="#">Shu-Jie Cao</a><sup>2</sup>, 
+      <a href="https://people.engr.ncsu.edu/cwong9/">Chau-Wai Wong</a><sup>3</sup>,
+      <a href="https://www.cse.iitb.ac.in/~ajitvr/">Ajit Rajwade</a><sup>1</sup>, <a href="https://people.engr.ncsu.edu/dzbaron/">Dror Baron</a><sup>3</sup><br><sup>1</sup>IIT Bombay, India,  <sup>2</sup>ShanghaiTech University, China,  <sup>3</sup>North Carolina State University, USA</p>
+    <br>
+  </div>
+</div>
+  
+<!-- <div class="container bg-3">    
+  <div class="row text-center">
+    <div class="col-sm-2 col-sm-offset-3">
+      <a href="https://www.youtube.com/watch?v=eQuCZaQN0tI"><img height="78" width="120" src="./assets/video-thumb.png" data-nothumb="" style="border: 1px solid"><br>Video<br></a>
+    </div>
+    <div class="col-sm-2">
+      <a href="https://arxiv.org/pdf/2012.05877.pdf"><img height="100" width="78" src="./assets/paper-thumb.png" data-nothumb="" style="border: 1px solid"><br>Paper<br></a>
+    </div>
+    <div class="col-sm-2">
+      <a href=""><img height="100" width="78" src="./assets/netdissect_code.png" data-nothumb="" style="border: 1px solid"><br>Code<br>(Coming Soon)</a>
+    </div>
+  </div>
+</div><br>
+ -->
+<!-- <div class="container bg-3">    
+  <div class="row">
+    <h2 class="text-center">Overview</h2>
+    <hr />
+    <div class="col-sm-8 col-sm-offset-2 text-center">
+      <img src="./assets/overview.gif" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+  <br>
+  <p>We explore how to perform pose estimation when the objects or scenes are represented as trained Neural Radiance Fields (NeRFs).
+    <b>Left:</b> Gray camera represents the estimated poses during the optimization; Green camera represents the ground truth camera pose. <b>Right:</b> Overlay of the rendered and observed images at each optimization step.
+  </p>
+</div><br><br> -->
+
+<!-- <div class="container bg-3">
+  <div class="row">
+    <h2 class="text-center">Video</h2>
+    <hr />
+    <div class="col-sm-10 col-sm-offset-1 text-center" style="margin-top: 1em;">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eQuCZaQN0tI?rel=0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div><br><br> -->
+
+<div class="container bg-3">
+  <div class="row">
+    <h2 class="subhead text-center">Abstract</h2>
+    <hr />
+  </div>
+  <p>
+    Group testing can save testing resources in the context of the ongoing COVID-19 pandemic. In group testing, we are given n samples, one per individual, and arrange them into m < n pooled samples, where each pool is obtained by mixing a subset of the n individual samples. Infected individuals are then identified using a group testing algorithm. In this paper, we use side information (SI) collected from contact tracing (CT) within non-adaptive/single-stage group testing algorithms. We generate data by incorporating CT SI and characteristics of disease spread between individuals. These data are fed into two signal and measurement models for group testing, where numerical results show that our algorithms provide improved sensitivity and specificity. While Nikolopoulos et al. utilized family structure to improve non-adaptive group testing, ours is the first work to explore and demonstrate how CT SI can further improve group testing performance.
+  </p>
+</div><br><br>
+
+<div class="container bg-3">
+  <div class="row">
+    <h2 class="subhead text-center">Some Results</h2>
+    <hr />
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3 text-center">
+      <p>Mean prevalance rate: 2.12%</p>
+    </div>
+    <div class="col-sm-3 text-center"> 
+      <p>Mean prevalance rate: 3.98%</p>
+    </div>
+    <div class="col-sm-3 text-center"> 
+      <p>Mean prevalance rate: 6.01%</p>
+    </div>
+    <div class="col-sm-3 text-center">
+      <p>Mean prevalance rate: 8.86%</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3 text-center">
+      <img src="./Images/M1-fnr-fpr-4.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3 text-center"> 
+      <img src="./Images/M1-fnr-fpr-3.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3 text-center"> 
+      <img src="./Images/M1-fnr-fpr-2.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3 text-center">
+      <img src="./Images/M1-fnr-fpr-1.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+  <!-- <hr /> -->
+  <div class="row">
+    <div class="col-sm-3 text-center">
+      <img src="./Images/M2-fnr-fpr-4.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3 text-center"> 
+      <img src="./Images/M2-fnr-fpr-3.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3 text-center"> 
+      <img src="./Images/M2-fnr-fpr-2.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3 text-center">
+      <img src="./Images/M2-fnr-fpr-1.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+  <p style="padding-top: 20px;">
+    We show the performance of the proposed group testing methods M1 (top row) with binary noise and M2 (bottom row) with multiplicative noise at 4 mean sparsity levels and 3 measurement levels (n = 1000 individuals).
+  </p>
+</div><br><br>
+
+<!-- <div class="container bg-3">
+  <div class="row">
+    <h2 class="text-center">Method</h2>
+    <hr />
+    <div class="col-sm-10 col-sm-offset-1 text-center">
+      <img src="./assets/method.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+  <p>
+    An overview of our pose estimation pipeline which inverts an optimized neural radiance field (NeRF). Given an initially estimated pose, 
+    we first decide which rays to emit. Sampled points along the ray and the corresponding viewing direction are fed into NeRF’s volume 
+    rendering procedure to output rendered pixels. Since the whole pipeline is differentiable, we can refine our estimated pose by minimizing 
+    the residual between the rendered and observed pixels.
+  </p>
+</div><br><br> -->
+
+<div class="container bg-3">    
+  <div class="row">
+    <h2 class="subhead text-center">Citation</h2>
+    <hr />
+    <div class="alert alert-warning citation">
+      @misc{goenka2020contact,<br>
+      &nbsp;&nbsp;title={Contact Tracing Enhances the Efficiency of COVID-19 Group Testing},<br>
+      &nbsp;&nbsp;author={Ritesh Goenka and Shu-Jie Cao and Chau-Wai Wong and Ajit Rajwade and Dror Baron},<br>
+      &nbsp;&nbsp;year={2020},<br>
+      &nbsp;&nbsp;eprint={2011.14186},<br>
+      &nbsp;&nbsp;archivePrefix={arXiv},<br>
+      &nbsp;&nbsp;primaryClass={stat.AP}<br>
+      }
+    </div>
+  </div>
+</div><br><br>
+
+</body>
+</html>
