@@ -1,19 +1,22 @@
 .jumbotron {
-    background-color: #12232E;
+    /*background-color: #12232E;*/
     /*padding-top: 0; 
     padding-bottom: 0; 
-*/  padding-top: 60px;
+*/  
+
+    padding-top: 60px;
 	padding-bottom: 40px;
+    background-color: #F5F5F5
 }
 
-.jumbotron a {
-    color: white;
+.jumbotron a,h2,p {
+    color: #000000;
 }
 
 .citation{
-	color: #12232E;
-	background-color: #EEFBFB;
-	border-color: #DEEBEB;
+	color: #000000;
+	background-color: #F6F6F6;
+	border-color: #EEEEEE;
 }
 
 body {
